@@ -1,32 +1,39 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activesupport (3.2.11)
-      i18n (~> 0.6)
-      multi_json (~> 1.0)
+    activesupport (5.2.4.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
     bluecloth (2.2.0)
     choice (0.1.4)
     chronic (0.9.0)
+    concurrent-ruby (1.1.6)
     haml (3.1.7)
     hpricot (0.8.6)
     htmlentities (4.3.1)
-    i18n (0.6.1)
+    i18n (1.8.2)
+      concurrent-ruby (~> 1.0)
     json (1.5.1)
     levenshtein (0.2.2)
-    multi_json (1.5.0)
+    minitest (5.14.1)
     postgres (0.7.9.2008.01.28)
     rack (1.2.1)
     sinatra (1.2.0)
       rack (~> 1.1)
       tilt (>= 1.2.2, < 2.0)
     text (1.2.1)
+    thread_safe (0.3.6)
     tilt (1.2.2)
+    tzinfo (1.2.7)
+      thread_safe (~> 0.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
+  activesupport (>= 5.2.4.3)
   bluecloth
   choice
   chronic
@@ -38,3 +45,6 @@ DEPENDENCIES
   postgres (= 0.7.9.2008.01.28)
   sinatra
   text
+
+BUNDLED WITH
+   1.17.3
