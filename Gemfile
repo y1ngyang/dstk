@@ -1,6 +1,6 @@
 source :gemcutter
 
-gem "sinatra"
+gem "sinatra", ">= 2.2.3"
 gem "choice"
 gem "json"
 gem "postgres", "=0.7.9.2008.01.28"
